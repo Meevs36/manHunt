@@ -1,3 +1,20 @@
 main: com.meevsbox.manHunt.manHunt
 name: manHunt
 version: 0.1.0
+
+commands:
+    hunter:
+        description: Sets the calling player to be a hunter for Man Hunt
+        usage: /hunter
+        permission: manHunt.default
+        
+    huntee:
+        description: Sets the calling player to be a huntee for Man Hunt
+        usage: /huntee
+        permission: manHunt.default
+
+    resetManhunt:
+        description: Resets hunters and huntees for manhunt
+        usage: /resetManhunt
+        permission: manHunt.op
+        
